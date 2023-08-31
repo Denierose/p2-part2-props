@@ -1,0 +1,59 @@
+body{
+  min-height: 100vh;
+  background: rgb(57,57,57);
+  background: linear-gradient(90deg, rgba(57,57,57,1) 0%, rgba(0,0,0,1) 100%);
+  color: #191919;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction:row;
+  background-color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px 0px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  width: 100%;
+  padding: 30px 0px;
+  margin-top: 2px;
+  border-radius: 10px;
+  border: none;
+  background-color: beige;
+  color: #191919;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 80%;
+}
+.buttonContainer{
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
